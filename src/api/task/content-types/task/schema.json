@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "posts",
+  "collectionName": "tasks",
   "info": {
-    "singularName": "post",
-    "pluralName": "posts",
-    "displayName": "Post",
+    "singularName": "task",
+    "pluralName": "tasks",
+    "displayName": "Task",
     "description": ""
   },
   "options": {
@@ -17,6 +17,9 @@
     },
     "description": {
       "type": "text"
+    },
+    "theme": {
+      "type": "string"
     }
   }
 }
